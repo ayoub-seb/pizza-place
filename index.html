@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizza Place</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Pizza Place</h1>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Delicious, Hot, and Fresh!</h2>
+      <p>Order your favorite pizza now</p>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-filters">
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter="veg">Veg</button>
+        <button class="filter" data-filter="nonveg">Non-Veg</button>
+      </div>
+      <div class="menu-items">
+        <div class="menu-item veg">
+          <img src="pizza1.jpg" alt="Margherita" />
+          <h3>Margherita</h3>
+          <p>Classic delight with 100% real mozzarella cheese</p>
+        </div>
+        <div class="menu-item nonveg">
+          <img src="pizza2.jpg" alt="Pepperoni" />
+          <h3>Pepperoni</h3>
+          <p>Loaded with pepperoni & cheese</p>
+        </div>
+        <div class="menu-item veg">
+          <img src="pizza3.jpg" alt="Farmhouse" />
+          <h3>Farmhouse</h3>
+          <p>Veggies galore: capsicum, onion, tomato & mushrooms</p>
+        </div>
+        <div class="menu-item nonveg">
+          <img src="pizza4.jpg" alt="BBQ Chicken" />
+          <h3>BBQ Chicken</h3>
+          <p>Smoky BBQ chicken and cheese combo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: order@pizzaplace.com</p>
+      <p>Phone: +123 456 7890</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pizza Place. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTop">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
